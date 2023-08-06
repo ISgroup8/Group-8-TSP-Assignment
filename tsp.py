@@ -9,7 +9,7 @@ from time import sleep
 location = []
 lats = []
 lons = []
-f = open('tsp dataset/location_ll.txt', 'r')
+f = open('location_ll.txt', 'r')
 for line in f.readlines():
     lat_lon = tuple(map(float, line.split('\t')))
     location.append(list(map(float, line.split('\t'))))
@@ -39,7 +39,7 @@ if __name__ == '__main__':
     screen = turtle.Screen()
     screen.setup(1253, 755)
     screen.setworldcoordinates(-180, -90, 180, 90)
-    screen.bgpic('./assets/map.png')
+    screen.bgpic('map.png')
 
     loc = turtle.Turtle()
     # sleep(10)
