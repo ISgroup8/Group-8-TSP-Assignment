@@ -1,4 +1,4 @@
-## Traveling Salesman Problem using Ant Colony Optimization
+## Group 8 - Traveling Salesman Problem using Ant Colony Optimization
 
 ### Introduction
 ##### Ant Colony Optimization
@@ -8,5 +8,3 @@ ACO is based on the behaviors of ant colony and their  search capability for com
 
 ##### Traveling Salesman Problem
 The Traveling Salesman Problem (TSP) is a classic algorithmic problem focused on optimization.
-
-> A better solution often means a solution that is cheaper, shorter, or faster.
